@@ -22,6 +22,14 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { AdminComponent } from './admin/admin.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { CheckbookingsComponent } from './checkbookings/checkbookings.component';
+import { MatTableModule } from '@angular/material/table';
+import { CheckcvsComponent } from './checkcvs/checkcvs.component';
+import { UploadeventsComponent } from './uploadevents/uploadevents.component';
+import { AccountsettingsComponent } from './accountsettings/accountsettings.component';
+import { MatSelectModule } from '@angular/material/select';
 //import  { MatNativeDateModule } from '@angular/material';
 
 
@@ -35,7 +43,12 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     EventsComponent,
     HomeComponent,
     JoinWithOurTeamComponent,
-    MainNavComponent
+    MainNavComponent,
+    AdminComponent,
+    CheckbookingsComponent,
+    CheckcvsComponent,
+    UploadeventsComponent,
+    AccountsettingsComponent
   ],
   imports: [
     BrowserModule,
@@ -53,6 +66,9 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     MatFormFieldModule,
     FormsModule, 
     ReactiveFormsModule,
+    MatGridListModule,
+    MatTableModule,
+    MatSelectModule
     
     
   ],
