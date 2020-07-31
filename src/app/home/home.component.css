@@ -1,0 +1,29 @@
+.example-card {
+    max-width: 320px;
+    margin: auto;  
+    background-color: rgb(117, 119, 119);
+    color: white;
+  }
+  
+  .mat-card-title{
+    font-size: medium;
+  }
+
+  .mat-card-actions{
+      display: flex;
+  }
+
+  .mat-button{
+      color: blue;
+  }
+  
+  .footer {
+   
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    margin: 0px;
+ }

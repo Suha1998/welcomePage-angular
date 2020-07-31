@@ -1,1 +1,140 @@
-<h2>Home</h2>
+
+<br/><h2>&nbsp;&nbsp;Welcome to ClicksLK</h2>
+<mat-grid-list cols="3"  rowHeight="1:1">
+    <mat-grid-tile>
+      <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>Mirrorless VS DSLR Cameras</mat-card-title>
+        </mat-card-header>
+       
+        <div *ngFor='let item of videoList'>
+          
+          <div style="position: relative;height: 0;padding-bottom: 56.25%;">
+            
+            <iframe width="560" height="315" [src]="getEmbedUrl(item)" frameborder="0" style = "position: absolute;width: 100%;height: 100%; left: 0;" allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        </div>
+       
+        <mat-card-content>
+          <p>
+            Mirrorless VS DSLR Cameras | What's the <br/>
+            Difference?
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button><a href="" style="text-decoration:none">Learn More</a></button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+  
+    <mat-grid-tile>
+      <mat-card class="example-card">
+        <mat-card-header>
+         
+          <mat-card-title>Canon 90D Tech Review</mat-card-title>
+        </mat-card-header>
+        <div *ngFor='let item of videoList2'>
+            <div style="position: relative;height: 0;padding-bottom: 56.25%;">
+              
+                <iframe width="560" height="315" [src]="getEmbedUrl(item)" frameborder="0" style = "position: absolute;width: 100%;height: 100%; left: 0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+  
+          </div>
+        <mat-card-content>
+          <p>
+            Here what our personal favourite Mr.Chanuka has<br/>
+            to say about Canon 90D  
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button><a href="" style="text-decoration:none">Learn More</a></button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+        <mat-card class="example-card">
+          <mat-card-header>
+            
+            <mat-card-title>Be a Better Photographer Yourself</mat-card-title>
+          </mat-card-header>
+          <div *ngFor='let item of videoList3'>
+            <div style="position: relative;height: 0;padding-bottom: 56.25%;">
+              
+                <iframe width="560" height="315" [src]="getEmbedUrl(item)" frameborder="0" style = "position: absolute;width: 100%;height: 100%; left: 0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+  
+          </div>
+          <mat-card-content>
+            <p>
+             DSLR Camera Basics Tutorial: Shutter Speed /<br/>
+             Aperture / ISO.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button><a href="" style="text-decoration:none">Learn More</a></button>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+
+  </mat-grid-list>
+
+  <br/><br/>
+  <h2>&nbsp;&nbsp;Our Past Events</h2>
+    
+  <mat-grid-list cols="3"  rowHeight="1:1">
+
+    <mat-grid-tile>
+        <mat-card class="example-card">
+          <img mat-card-image src="/assets/Birthday.jpg" alt="">
+          <mat-card-content>
+              <a href="" style="text-decoration:none"><h3>Project One: Misu & Hiru Birthday Album</h3></a>
+            <p>
+            Take a look at our first project on these CutiePies<br/>
+            Birthday
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+
+    <mat-grid-tile>
+        <mat-card class="example-card">
+            <img mat-card-image src="/assets/project two.jpg" alt="">
+            <mat-card-content>
+                <a href="" style="text-decoration:none"><h3>Project Two: Siyoth Saraniya (ALBUM 02)</h3></a>
+              <p>
+              Take a look at our first project on these CutiePies<br/>
+              Birthday
+              </p>
+            </mat-card-content>
+          </mat-card>
+    </mat-grid-tile>
+  
+    <mat-grid-tile>
+        <mat-card class="example-card">
+            <img mat-card-image src="/assets/03final.jpg" alt="">
+            <mat-card-content>
+                <a href="" style="text-decoration:none"><h3>Project Three: Siyoth Saraniya (ALBUM 01)</h3></a>
+              <p>
+              Take a look at our first project on these CutiePies<br/>
+              Birthday
+              </p>
+            </mat-card-content>
+          </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+  
+  <h3>&nbsp;&nbsp;Let us cover your event and make your day much more brighter</h3>
+  <div style="float: right;"> 
+    <button mat-stroked-button><a href="" style="text-decoration:none">Call to action</a></button>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+
+<div class="footer" #footer>
+    <br/>
+    <br/>
+   Copyright @ ClicksLK 2020
+  </div>
